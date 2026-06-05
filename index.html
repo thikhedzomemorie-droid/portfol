@@ -3,31 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Document</title>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
     <header>
-<div class="logo"><img src="photo/1000758810-removebg-preview.png" alt=""></div>
-<ul class="navbar">
-   <ul><a href="#"></a>Home</ul>
-<ul><a href="#"></a>About Me</ul>
-<ul><a href="#"></a>Contact Us</ul>
-</ul>
+
+        <a href="#" class="logo"><img src="photos/LOGO.png" alt=""></a>
+        <ul class="navlist">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </ul>
+        
     </header>
+    <img src="photos/MEMO.jpeg">
+   
+
     <section class="about">
-        <div class="about-me">
-            <img src="photo/IMG-20250223-WA0039.jpg">
-            <p><strong>ABOUT ME</strong></p>
-            <p><strong>TSHIOMA THIKHEDZO MEMORY</strong></p>
-            <br>
-            <p>I am a young lady aged 27 from the rural areas of Nzhelele,<br> a village named Maname Paradise just outside the Hendrik Verwoerd tunnels. Am a baker and a mother to 2 sons.
-            <br> I studied BSc in Biochemistry and biology at university of Venda, but didn't complete due to academic exclusion.<br>
+         <div class="aboutContainer">
+             <div class="row">
+                 <div class="about-col-1">
+                     <img src="photos/tk.jpg" alt="">
+                 </div>
+                 <div class="about-col-2">
+                     <h1 class="sub-title">About </h1>
+                      <p>I am a young lady aged 27 from the rural areas of Nzhelele,<br> a village named Maname Paradise just outside the Hendrik Verwoerd tunnels.<br>
+                         Am a self-taugh baker and a mother to 2 sons.
+            <br>Baking has always been passion from a young age.<br>
         It is my dream to own my own businesses and create employment and add change in youngstar lives.</p>
         </div>
+
+                 </div>
+             </div>
+         </div>
     </section>
+    <section class="contact-section">
+               <form class="contact-form">
+                 <div class="form-row">
+                   <input type="text" placeholder="Your Name" required />
+                   <input type="tel" placeholder="Phone no." required />
+                 </div>
+                 <input type="email" placeholder="Your Email" required />
+                 <textarea placeholder="Your Message" rows="5" required></textarea>
+                 <button type="submit">SUBMIT</button>
+               </form>
+             </section>
 
-    
 
-    <footer></footer>
+
+
+
+
+         <footer>
+        
+    <p>&copy; 2026 Made with love by Thikhedzo. All rights reserved.</p>
+</footer>
 </body>
 </html>
